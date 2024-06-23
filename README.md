@@ -2,17 +2,18 @@
 This repository contains advanced MS SQL scripts for managing a betting site's customer database. It includes complex queries, functions, procedures, and triggers for efficient data management.
 
 ----- Contents :
+
 Tables:
 
-Customers: 
+	Customers: 
 
-	Stores customer information.,
+		Stores customer information.,
  
-Bets:
+	Bets:
 
 		Stores betting information.
 
-Transactions: 
+	Transactions: 
 
 		Stores customer transaction details.
 
