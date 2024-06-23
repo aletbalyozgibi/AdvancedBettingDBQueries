@@ -1,4 +1,4 @@
---Müşteri hesap hareketlerini tutacak tabloyu oluşturur (Ana Tabel'ları oluşturmadan çalıştıramazsınız !)
+--Müşteri hesap hareketlerini tutacak tabloyu oluşturma islemi :  (Ana Tabel'ları oluşturmadan çalıştıramazsınız !)
 CREATE TABLE Transactions (
     TransactionID INT PRIMARY KEY IDENTITY(1,1),
     CustomerID INT FOREIGN KEY REFERENCES Customers(CustomerID),
